@@ -1,0 +1,64 @@
+@font-face {
+    font-family: bigChoogleChont;
+    src: url(ProductSans-Black.ttf);
+}
+ @font-face {
+     font-family: regularChoogleChont;
+     src: url(ProductSans-Regular.ttf);
+ }
+
+body {
+    background-color: #212121;
+}
+
+#links {
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+}
+
+#links > a {
+    padding: 5px;
+    font-family: regularChoogleChont;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+#links > a:hover {
+    text-decoration: underline;
+}
+
+#main-head {
+    text-align: center;
+    font-family: regularChoogleChont;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#main-search {
+    text-align: center;
+}
+
+#search-box {
+    background: url(search_FILL0_wght400_GRAD0_opsz48.png) no-repeat left;
+    background-size: 20px;
+    background-color: white;
+    background-position-x: 20px;
+    width: 500px;
+    height: 32px;
+    padding: 5px;
+    padding-left: 55px;
+    border: 0px solid black;
+    border-radius: 25px;
+    font-family: regularChoogleChont;
+    font-size: 16px;
+}
+
+#boosh1 {
+    width: 2000px;
+    height: 250px;
+}
+
+
